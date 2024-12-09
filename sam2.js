@@ -4,6 +4,7 @@ button.onclick = () => {
     if (email) {
         alert("Welcome to Web Page " + email);
     }
-    else
-        return email
+    else{
+        return email;
+    }
 };
